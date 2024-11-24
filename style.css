@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    font-family: 'Bree Serif';
+    background-color: #d3d1c7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 40px 0;
+}
+
+p {
+    font-size: 27px;
+    line-height: 1.6;
+    margin: 20px auto 0;
+    width: 60%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.home-button {
+    margin: 40px 0;
+}
+
+.home-button a {
+    text-decoration: none;
+    color: #000;
+    background-color: #d3cbb8;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #a89f8d;
+    padding: 10px 0;
+    font-size: 12px;
+    margin-top: auto;
+    position: relative;
+}
+
+footer p {
+    font-size: 13px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
